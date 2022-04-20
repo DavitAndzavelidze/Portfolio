@@ -191,7 +191,6 @@ body {
 }
 
 .aside .logo a span {
-  font-family: "clicker Script", cursive;
   font-weight: 700;
   letter-spacing: 5px;
   font-size: 25px;
@@ -287,11 +286,10 @@ body {
   max-width: 60%;
 }
 h3.hello {
-  font-size: 28px;
+  font-size: 30px;
   margin: 15px 0;
 }
 h3.hello span {
-  font-family: "Clicker Script", cursive;
   font-size: 30px;
   font-weight: 700;
   color: var(--skin-color);
@@ -616,5 +614,22 @@ h3.my-profession {
   .contact .contact-form .col-6 {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+}
+@media (max-width: 414px) {
+  .aside {
+    font-size: 20px;
+  }
+  h3.hello,
+  h3.hello span {
+    font-size: 24px;
+    max-width: 80%;
+  }
+  h3.my-profession {
+    font-size: 24px;
+  }
+  .home-info p {
+    font-size: 18px;
+    margin-bottom: 50px;
   }
 }
